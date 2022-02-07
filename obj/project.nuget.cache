@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "FK5D5XiasU51WmQifczs0IKCWZ3j+dX35XKUDvFCrkDqF6ozdL+Ew2/eVOLToJDt9aenXE72IzwE5BkPJ1Nzig==",
+  "success": true,
+  "projectFilePath": "D:\\Education\\Component-Processing\\Component-Processing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sarve\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.22\\microsoft.aspnetcore.jsonpatch.3.1.22.nupkg.sha512",
+    "C:\\Users\\sarve\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.22\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.22.nupkg.sha512",
+    "C:\\Users\\sarve\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\sarve\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\sarve\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\sarve\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
+    "C:\\Users\\sarve\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\sarve\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\sarve\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\sarve\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\sarve\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\sarve\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
