@@ -22,7 +22,7 @@ namespace Component_Processing.Services
             using ( var httpClient = new HttpClient() )
             { 
                 var value= new StringContent(JsonConvert.SerializeObject(new PackagingAndDeliveryInput { componentType = input.ComponentDetail.ComponentType, count = input.ComponentDetail.Quantity }), Encoding.UTF8, "application/json");
-                using ( var response = await httpClient.PostAsync( "http://packaging-and-delivery.azurewebsites.net/api/PackagingAndDelivery", value ) )
+                using ( var response = await httpClient.PostAsync( "https://packagingdelivery.azurewebsites.net/api/PackagingAndDelivery", value ) )
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
                     string v = JsonConvert.DeserializeObject<string>( apiResponse );
@@ -59,7 +59,7 @@ namespace Component_Processing.Services
             using ( var httpClient = new HttpClient() )
             {
                 var value = new StringContent(JsonConvert.SerializeObject( new PaymentInput {creditCardNumber = input.CreditCardNumber, creditLimit = input.CreditLimit, processingCharge = input.ProcessingCharge} ), Encoding.UTF8, "application/json" );
-                using ( var response = await httpClient.PostAsync( "https://paymentorder.azurewebsites.net/Payment", value ) )
+                using ( var response = await httpClient.PostAsync( "https://paymentmicroserviceazure.azurewebsites.net/Payment", value ) )
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
                     string v = JsonConvert.DeserializeObject<string>( apiResponse );
